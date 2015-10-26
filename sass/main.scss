@@ -1,0 +1,146 @@
+@import "bourbon";
+@import "font-awesome";
+
+body {
+  //background: green;
+}
+.main-page{
+	width :100%;
+	margin-top :2%;
+	height: 695px;
+}
+aside{
+	width:25%;
+	float:left;
+	height: 100%;
+	border: 1px solid black;
+}
+
+aside img{
+	width :100%;
+	height:100%;
+}
+
+.game-body{
+	font-family: 'Henny Penny', cursive;
+	display:inline-block;
+	vertical-align:right;
+	border: 1px solid black;
+	padding:0; 
+	margin :0;
+	width:69%;
+	height:100%;
+	float:left;
+	background-color:grey;
+}
+#heading{
+	margin:0;
+}
+
+.top{
+	display: inline-block;
+	width: 100%;
+	height : 50px;
+	text-align:center;
+	margin-top :2%;
+	padding-bottom : 2%;
+}
+
+.center{
+
+	//background-color:yellow;
+	display:inline-block;
+	width:100%;
+	height: 400px;
+	//padding-left: 300px;
+	//vertical-align:;
+}
+
+
+.purple{
+	width : 30%;
+	padding-left:5%;
+	display:inline-block;
+	margin-right:5%;
+}
+
+.gghealth{
+	width : 80px;
+}
+
+
+.king{
+	display:inline-block;
+	vertical-align:top;
+	width: 35%;
+	margin-top:0;
+	padding-top:0;
+	padding-right:0;
+}
+
+#vs{
+	margin-right:15%;
+}
+
+// #monkey1{
+// 	width:100%;
+// 	margin: 0 auto;
+//     padding-left: 25%;
+//     display: inline-block;
+// }
+.position{
+	display : inline-block;
+	width:100%;
+	margin:0 25%;	
+}
+
+
+#tuggers{
+	//background-color:orange;
+	margin-top:0;
+	padding-top:0;
+	padding-left:0;
+	width : 50%;
+	height: 35%;
+	text-align: center;
+}
+
+
+
+.Attack{
+	border-radius:1em;
+}
+
+.positionLeft{
+	float:left;
+	padding:0;
+	margin-right:70%;	
+	margin-left :0;
+}
+
+
+.positionRight{
+	float:right;
+	margin-right: 0;
+	margin-left:70%;
+	padding:0;
+}
+
+
+
+.audience{
+	display:inline-block;
+	//background:url('/images/audience.gif') no-repeat repeat;
+	background-image: url('/images/audience.gif');
+    background-size: 100% 100%;
+	width:100%;
+	height: 250px;
+	border:1px solid black;	
+	//overflow:hidden;
+	position: relative;
+}
+
+.audience img{
+position: absolute;
+// background-image:
+ }
